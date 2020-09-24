@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C2458A8251541FB00DAC55C /* OverheadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2458A7251541FB00DAC55C /* OverheadView.swift */; };
+		7C2458AD251780BB00DAC55C /* RailHeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2458AC251780BB00DAC55C /* RailHeightView.swift */; };
+		7C2458B12517A26E00DAC55C /* ClearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2458B02517A26E00DAC55C /* ClearanceView.swift */; };
+		7C2458B525187A5400DAC55C /* TranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2458B425187A5400DAC55C /* TranslationService.swift */; };
+		7C35C2F5250BC98C0019A596 /* GuidingRailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C35C2F4250BC98C0019A596 /* GuidingRailsView.swift */; };
+		7C35C2F7250BCECC0019A596 /* CurveRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C35C2F6250BCECC0019A596 /* CurveRadiusView.swift */; };
+		7C35C2F9250BD60A0019A596 /* CantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C35C2F8250BD60A0019A596 /* CantView.swift */; };
+		7C35C2FB250BD9C10019A596 /* TrackDistanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C35C2FA250BD9C10019A596 /* TrackDistanceView.swift */; };
+		7C673C5224444F4C00DA9D53 /* TitleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C673C5124444F4C00DA9D53 /* TitleRowView.swift */; };
+		7C673C542444507E00DA9D53 /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C673C532444507E00DA9D53 /* Scale.swift */; };
+		7C673C592444887C00DA9D53 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C673C582444887C00DA9D53 /* SettingsView.swift */; };
+		7C673C5B24448F1400DA9D53 /* ScaleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C673C5A24448F1400DA9D53 /* ScaleService.swift */; };
+		7C673C5E24449C4400DA9D53 /* ScaleSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C673C5D24449C4400DA9D53 /* ScaleSelectorView.swift */; };
+		7C673C6024449F3E00DA9D53 /* ScaleIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C673C5F24449F3E00DA9D53 /* ScaleIconView.swift */; };
+		7C673C622444CA2400DA9D53 /* GaugeCalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C673C612444CA2400DA9D53 /* GaugeCalcView.swift */; };
+		7C673C68244503A900DA9D53 /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C673C67244503A900DA9D53 /* MenuRowView.swift */; };
+		7CA47C99242F6338002AC12D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA47C98242F6338002AC12D /* AppDelegate.swift */; };
+		7CA47C9B242F6338002AC12D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA47C9A242F6338002AC12D /* SceneDelegate.swift */; };
+		7CA47C9D242F6338002AC12D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA47C9C242F6338002AC12D /* ContentView.swift */; };
+		7CA47C9F242F633B002AC12D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA47C9E242F633B002AC12D /* Assets.xcassets */; };
+		7CA47CA2242F633B002AC12D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA47CA1242F633B002AC12D /* Preview Assets.xcassets */; };
+		7CA47CA5242F633B002AC12D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA47CA3242F633B002AC12D /* LaunchScreen.storyboard */; };
+		7CBDA5B024534A3A00F70C7B /* TrackbedCalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBDA5AF24534A3A00F70C7B /* TrackbedCalcView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C2458A7251541FB00DAC55C /* OverheadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverheadView.swift; sourceTree = "<group>"; };
+		7C2458AC251780BB00DAC55C /* RailHeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailHeightView.swift; sourceTree = "<group>"; };
+		7C2458B02517A26E00DAC55C /* ClearanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearanceView.swift; sourceTree = "<group>"; };
+		7C2458B425187A5400DAC55C /* TranslationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationService.swift; sourceTree = "<group>"; };
+		7C35C2F4250BC98C0019A596 /* GuidingRailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidingRailsView.swift; sourceTree = "<group>"; };
+		7C35C2F6250BCECC0019A596 /* CurveRadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveRadiusView.swift; sourceTree = "<group>"; };
+		7C35C2F8250BD60A0019A596 /* CantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantView.swift; sourceTree = "<group>"; };
+		7C35C2FA250BD9C10019A596 /* TrackDistanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDistanceView.swift; sourceTree = "<group>"; };
+		7C673C5124444F4C00DA9D53 /* TitleRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRowView.swift; sourceTree = "<group>"; };
+		7C673C532444507E00DA9D53 /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
+		7C673C582444887C00DA9D53 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7C673C5A24448F1400DA9D53 /* ScaleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleService.swift; sourceTree = "<group>"; };
+		7C673C5D24449C4400DA9D53 /* ScaleSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleSelectorView.swift; sourceTree = "<group>"; };
+		7C673C5F24449F3E00DA9D53 /* ScaleIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleIconView.swift; sourceTree = "<group>"; };
+		7C673C612444CA2400DA9D53 /* GaugeCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeCalcView.swift; sourceTree = "<group>"; };
+		7C673C67244503A900DA9D53 /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
+		7CA47C95242F6338002AC12D /* TrainCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA47C98242F6338002AC12D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CA47C9A242F6338002AC12D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7CA47C9C242F6338002AC12D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CA47C9E242F633B002AC12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CA47CA1242F633B002AC12D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CA47CA4242F633B002AC12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CA47CA6242F633B002AC12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CBDA5AF24534A3A00F70C7B /* TrackbedCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackbedCalcView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CA47C92242F6338002AC12D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C673C4D2444486900DA9D53 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				7CBDA5AE24534A0900F70C7B /* calc */,
+				7CA47C9C242F6338002AC12D /* ContentView.swift */,
+				7C673C5124444F4C00DA9D53 /* TitleRowView.swift */,
+				7C673C582444887C00DA9D53 /* SettingsView.swift */,
+				7C673C5D24449C4400DA9D53 /* ScaleSelectorView.swift */,
+				7C673C5F24449F3E00DA9D53 /* ScaleIconView.swift */,
+				7C673C67244503A900DA9D53 /* MenuRowView.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		7C673C5024444EBD00DA9D53 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				7C673C5A24448F1400DA9D53 /* ScaleService.swift */,
+				7C2458B425187A5400DAC55C /* TranslationService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		7C673C5C24449AB500DA9D53 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				7C673C532444507E00DA9D53 /* Scale.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		7CA47C8C242F6338002AC12D = {
+			isa = PBXGroup;
+			children = (
+				7CA47C97242F6338002AC12D /* TrainCalc */,
+				7CA47C96242F6338002AC12D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CA47C96242F6338002AC12D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CA47C95242F6338002AC12D /* TrainCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CA47C97242F6338002AC12D /* TrainCalc */ = {
+			isa = PBXGroup;
+			children = (
+				7C673C5C24449AB500DA9D53 /* entity */,
+				7C673C5024444EBD00DA9D53 /* service */,
+				7C673C4D2444486900DA9D53 /* ui */,
+				7CA47C98242F6338002AC12D /* AppDelegate.swift */,
+				7CA47C9A242F6338002AC12D /* SceneDelegate.swift */,
+				7CA47C9E242F633B002AC12D /* Assets.xcassets */,
+				7CA47CA3242F633B002AC12D /* LaunchScreen.storyboard */,
+				7CA47CA6242F633B002AC12D /* Info.plist */,
+				7CA47CA0242F633B002AC12D /* Preview Content */,
+			);
+			path = TrainCalc;
+			sourceTree = "<group>";
+		};
+		7CA47CA0242F633B002AC12D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CA47CA1242F633B002AC12D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CBDA5AE24534A0900F70C7B /* calc */ = {
+			isa = PBXGroup;
+			children = (
+				7C673C612444CA2400DA9D53 /* GaugeCalcView.swift */,
+				7C35C2F4250BC98C0019A596 /* GuidingRailsView.swift */,
+				7C35C2F6250BCECC0019A596 /* CurveRadiusView.swift */,
+				7C35C2F8250BD60A0019A596 /* CantView.swift */,
+				7C35C2FA250BD9C10019A596 /* TrackDistanceView.swift */,
+				7C2458A7251541FB00DAC55C /* OverheadView.swift */,
+				7C2458AC251780BB00DAC55C /* RailHeightView.swift */,
+				7C2458B02517A26E00DAC55C /* ClearanceView.swift */,
+				7CBDA5AF24534A3A00F70C7B /* TrackbedCalcView.swift */,
+			);
+			path = calc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CA47C94242F6338002AC12D /* TrainCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA47CA9242F633B002AC12D /* Build configuration list for PBXNativeTarget "TrainCalc" */;
+			buildPhases = (
+				7CA47C91242F6338002AC12D /* Sources */,
+				7CA47C92242F6338002AC12D /* Frameworks */,
+				7CA47C93242F6338002AC12D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrainCalc;
+			productName = TrainCalc;
+			productReference = 7CA47C95242F6338002AC12D /* TrainCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CA47C8D242F6338002AC12D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Kornel Kaulics";
+				TargetAttributes = {
+					7CA47C94242F6338002AC12D = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 7CA47C90242F6338002AC12D /* Build configuration list for PBXProject "TrainCalc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CA47C8C242F6338002AC12D;
+			productRefGroup = 7CA47C96242F6338002AC12D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CA47C94242F6338002AC12D /* TrainCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CA47C93242F6338002AC12D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA47CA5242F633B002AC12D /* LaunchScreen.storyboard in Resources */,
+				7CA47CA2242F633B002AC12D /* Preview Assets.xcassets in Resources */,
+				7CA47C9F242F633B002AC12D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CA47C91242F6338002AC12D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2458AD251780BB00DAC55C /* RailHeightView.swift in Sources */,
+				7C35C2F7250BCECC0019A596 /* CurveRadiusView.swift in Sources */,
+				7C35C2FB250BD9C10019A596 /* TrackDistanceView.swift in Sources */,
+				7CA47C99242F6338002AC12D /* AppDelegate.swift in Sources */,
+				7C673C592444887C00DA9D53 /* SettingsView.swift in Sources */,
+				7C2458B525187A5400DAC55C /* TranslationService.swift in Sources */,
+				7CA47C9B242F6338002AC12D /* SceneDelegate.swift in Sources */,
+				7C673C5224444F4C00DA9D53 /* TitleRowView.swift in Sources */,
+				7C673C542444507E00DA9D53 /* Scale.swift in Sources */,
+				7C673C622444CA2400DA9D53 /* GaugeCalcView.swift in Sources */,
+				7C35C2F5250BC98C0019A596 /* GuidingRailsView.swift in Sources */,
+				7CBDA5B024534A3A00F70C7B /* TrackbedCalcView.swift in Sources */,
+				7C35C2F9250BD60A0019A596 /* CantView.swift in Sources */,
+				7C673C5E24449C4400DA9D53 /* ScaleSelectorView.swift in Sources */,
+				7C673C6024449F3E00DA9D53 /* ScaleIconView.swift in Sources */,
+				7C2458B12517A26E00DAC55C /* ClearanceView.swift in Sources */,
+				7CA47C9D242F6338002AC12D /* ContentView.swift in Sources */,
+				7C673C5B24448F1400DA9D53 /* ScaleService.swift in Sources */,
+				7C2458A8251541FB00DAC55C /* OverheadView.swift in Sources */,
+				7C673C68244503A900DA9D53 /* MenuRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CA47CA3242F633B002AC12D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CA47CA4242F633B002AC12D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CA47CA7242F633B002AC12D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CA47CA8242F633B002AC12D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CA47CAA242F633B002AC12D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"TrainCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = QD7AY85J68;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TrainCalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.highball.modelcalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CA47CAB242F633B002AC12D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"TrainCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = QD7AY85J68;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TrainCalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.highball.modelcalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CA47C90242F6338002AC12D /* Build configuration list for PBXProject "TrainCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA47CA7242F633B002AC12D /* Debug */,
+				7CA47CA8242F633B002AC12D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA47CA9242F633B002AC12D /* Build configuration list for PBXNativeTarget "TrainCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA47CAA242F633B002AC12D /* Debug */,
+				7CA47CAB242F633B002AC12D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CA47C8D242F6338002AC12D /* Project object */;
+}
