@@ -24,7 +24,7 @@ class TranslationService {
         "GUIDING_RAIL" :      ["en":"Guiding Rails",         "de":"Schutzschienen",      "hu":"Vezetősínek"],
         "MIN_DISTANCE" :      ["en":"Min. distance",         "de":"Min. Abstand",      "hu":"Min. távolság"],
         "PROTO_GAUGE" :      ["en":"Proto gauge (1:1)",      "de":"Vorbildspurweite (1:1)",      "hu":"Eredeti nyomtáv (1:1)"],
-        "SCALED_GAUGE" :      ["en":"Scaled gauge",          "de":"Maßstäbliche spurweite",      "hu":"Arányos nyomtáv"],
+        "SCALED_GAUGE" :      ["en":"Scaled gauge",          "de":"Maßstäbliche Spurweite",      "hu":"Arányos nyomtáv"],
 
         "CURVE_RADIUS" :      ["en":"Curve radius",          "de":"Bogenradius",      "hu":"Ívsugár"],
         "CURVE_MIN_RADIUS" :      ["en":"Minimum radius",          "de":"Kleinste Bogenradien",      "hu":"Minimáis ívsugár"],
