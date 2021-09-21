@@ -71,6 +71,8 @@ class TranslationService {
         
         "SETTINGS" :    ["en":"Settings",           "de":"Einstellungen",    "hu":"Beállítások"],
 
+        "DCC_COLOR" :    ["en":"DCC wire colors",           "de":"DCC Kabelfarben",    "hu":"DCC vezeték színek"],
+
         "GAUGE" :       ["en":"Gauge (G)",          "de":"Spurweite (G)",   "hu":"Nyomtáv (G)"],
         "SCALE" :       ["en":"Scale",              "de":"Nenngröße",       "hu":"Méret"],
         "NORM" :        ["en":"Standard",           "de":"Norm de",         "hu":"Szabvány"]

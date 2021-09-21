@@ -51,6 +51,9 @@ struct ContentView: View {
                         HStack {
                             NavigationLink(destination: SettingsView() , label: {MenuRowView(image: "defaultAvatar", titles : [translationService.trans("SETTINGS")])})
                         }
+                        HStack {
+                            NavigationLink(destination: DccColorView() , label: {MenuRowView(image: "defaultAvatar", titles : [translationService.trans("DCC_COLOR")])})
+                        }
                     }
                 }
                 Text(updater ? "" : " ")

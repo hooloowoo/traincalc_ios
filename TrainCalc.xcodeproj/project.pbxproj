@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C07F5B62557E97900A8B9F0 /* DccColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C07F5B52557E97900A8B9F0 /* DccColorView.swift */; };
+		7C07F5B92557EB3000A8B9F0 /* DccSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C07F5B82557EB3000A8B9F0 /* DccSelectorView.swift */; };
 		7C2458A8251541FB00DAC55C /* OverheadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2458A7251541FB00DAC55C /* OverheadView.swift */; };
 		7C2458AD251780BB00DAC55C /* RailHeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2458AC251780BB00DAC55C /* RailHeightView.swift */; };
 		7C2458B12517A26E00DAC55C /* ClearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2458B02517A26E00DAC55C /* ClearanceView.swift */; };
@@ -33,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C07F5B52557E97900A8B9F0 /* DccColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DccColorView.swift; sourceTree = "<group>"; };
+		7C07F5B82557EB3000A8B9F0 /* DccSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DccSelectorView.swift; sourceTree = "<group>"; };
 		7C2458A7251541FB00DAC55C /* OverheadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverheadView.swift; sourceTree = "<group>"; };
 		7C2458AC251780BB00DAC55C /* RailHeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailHeightView.swift; sourceTree = "<group>"; };
 		7C2458B02517A26E00DAC55C /* ClearanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearanceView.swift; sourceTree = "<group>"; };
@@ -71,14 +75,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C07F5BB2557EB3700A8B9F0 /* selector */ = {
+			isa = PBXGroup;
+			children = (
+				7C673C5D24449C4400DA9D53 /* ScaleSelectorView.swift */,
+				7C07F5B82557EB3000A8B9F0 /* DccSelectorView.swift */,
+			);
+			path = selector;
+			sourceTree = "<group>";
+		};
 		7C673C4D2444486900DA9D53 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				7C07F5BB2557EB3700A8B9F0 /* selector */,
 				7CBDA5AE24534A0900F70C7B /* calc */,
 				7CA47C9C242F6338002AC12D /* ContentView.swift */,
 				7C673C5124444F4C00DA9D53 /* TitleRowView.swift */,
 				7C673C582444887C00DA9D53 /* SettingsView.swift */,
-				7C673C5D24449C4400DA9D53 /* ScaleSelectorView.swift */,
 				7C673C5F24449F3E00DA9D53 /* ScaleIconView.swift */,
 				7C673C67244503A900DA9D53 /* MenuRowView.swift */,
 			);
@@ -154,6 +167,7 @@
 				7C2458AC251780BB00DAC55C /* RailHeightView.swift */,
 				7C2458B02517A26E00DAC55C /* ClearanceView.swift */,
 				7CBDA5AF24534A3A00F70C7B /* TrackbedCalcView.swift */,
+				7C07F5B52557E97900A8B9F0 /* DccColorView.swift */,
 			);
 			path = calc;
 			sourceTree = "<group>";
@@ -231,11 +245,13 @@
 			files = (
 				7C2458AD251780BB00DAC55C /* RailHeightView.swift in Sources */,
 				7C35C2F7250BCECC0019A596 /* CurveRadiusView.swift in Sources */,
+				7C07F5B92557EB3000A8B9F0 /* DccSelectorView.swift in Sources */,
 				7C35C2FB250BD9C10019A596 /* TrackDistanceView.swift in Sources */,
 				7CA47C99242F6338002AC12D /* AppDelegate.swift in Sources */,
 				7C673C592444887C00DA9D53 /* SettingsView.swift in Sources */,
 				7C2458B525187A5400DAC55C /* TranslationService.swift in Sources */,
 				7CA47C9B242F6338002AC12D /* SceneDelegate.swift in Sources */,
+				7C07F5B62557E97900A8B9F0 /* DccColorView.swift in Sources */,
 				7C673C5224444F4C00DA9D53 /* TitleRowView.swift in Sources */,
 				7C673C542444507E00DA9D53 /* Scale.swift in Sources */,
 				7C673C622444CA2400DA9D53 /* GaugeCalcView.swift in Sources */,
